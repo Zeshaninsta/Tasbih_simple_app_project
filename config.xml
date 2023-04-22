@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	id    = "com.zeshan.tasbih"
+	versionCode = ""
+	version = "3.0">
+<name>Tasbih</name>
+<description>
+TASBIH APP
+</description>
+<author> href="http://instagram.com/zeshaninsta" email="zeshaninsta@gmail.com"
+Zeshan Insta
+</author>
+<content src="./index.html"/>
+ <icon src="./Image/Tasbih.png"/>
+</widget>

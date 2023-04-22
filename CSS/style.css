@@ -1,0 +1,93 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy','poppins','san serif';
+    color: #fffefe;
+}
+body
+{
+    background: #66ad24;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+.box-body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+#add,#sub,#reset{
+    width:100px;
+    padding: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #043f61;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+#reset
+{
+    background: #20283e;
+    color: #fffefe;
+}
+#sub
+{
+    background: #23282d;
+    color: #fffefe;
+}
+.zikir
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.zikir ul{
+    list-style: none;
+    text-align: start;
+}
+#titile{
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+#counter{
+    width: 40px;
+    height: 40px;
+}
+.decs
+{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.box-body img
+{
+    margin-bottom: 10px;
+    color: #fffefe;
+    filter: invert(1);
+}
